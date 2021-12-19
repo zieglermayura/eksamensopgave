@@ -1,0 +1,590 @@
+/* GENRELT DESIGN */
+/* navbardesign */
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+.navbar{
+    background-color: #CBC5C1;
+    margin: -15x;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+
+.nav-text{
+    color: #3E3E3B;
+    
+}
+
+.nav-link{
+    color: #3E3E3B;
+    font-size: 20px;
+}
+
+.undernavbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #CBC5C1;
+    margin-top: -60px;
+}
+
+
+.btnstyle{
+    background-color: #CBC5C1;
+    color: #3E3E3B;
+    border: none;
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+footer{
+    background-color: #A2AAB0;
+    text-align: center;
+    padding: 20px;
+    color: #3E3E3B;
+    margin-right: -10px;
+    margin-right: -10px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 80px;
+       
+}
+
+.footer1{
+    background-color: #A2AAB0;
+    text-align: center;
+    padding: 20px;
+    color: #3E3E3B;
+    margin-right: -10px;
+    margin-right: -10px;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 80px;
+       
+}
+
+/* ---------------------------------- */
+
+/* style af text  */
+.blaatext1{
+    color: #4C586F;
+    padding-top: 10px;
+
+}
+
+.blaatext11{
+    color: #4C586F;
+    padding-top: 10px;
+}
+
+.blaatext12{
+    color: #4C586F;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+
+.blaatextunder{
+    color: #4C586F;
+    padding-top: 10px;
+}
+
+.blaatextcenter{
+    color: #4C586F;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.blaatextcenter{
+    color: #4C586F;
+    text-align: center;
+}
+
+.blaatextindex{
+    color: #4C586F;
+    padding-left: 10px;
+
+}
+
+.blaatextcentergraa{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+.graatext{
+    color: #3E3E3B;
+}
+
+.graatextcenter{
+    color: #3e3e3b;
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.hvidtextblaabackground{
+color: white;
+background-color: #4C586F;
+padding-left: 20px;
+margin-top: -7px;
+}
+
+
+
+/* index.html */
+
+.textbox1{
+    margin-left: 10px;
+}
+.kreativ{
+    background-color: #4C586F;
+    background-position: center;
+    text-align: center;
+    color: #EBECED;    
+}
+
+/* PRØVE */
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.line-2{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+.textfarve{
+    color: #3E3E3B;
+}
+
+.graatextbox{
+    text-align: left;
+}
+/* header 2 css */
+.header2index{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.card{
+    border: none;
+}
+
+/* header 2 css */
+.header3index{
+    background-color:#EBECED;
+    padding: 100px;
+}
+.textdeco{
+    color: #4C586F;
+}
+
+.header1index1{
+    background-color: #EBECED;
+    color: #3E3E3B;
+}
+
+.header2index2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: #EBECED;
+    padding: 20px;
+}
+
+.card-body1{
+    background-color: #EBECED
+}
+
+
+.btnindexkontakt{
+    padding: 80px 200px;
+    margin-top: px;
+}
+
+.udpluk{
+    text-align: center;
+    color: #4C586F;
+    padding: 20px;
+}
+
+/* header4index */
+.header4index{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---------------------------------- */
+/* portfolio */
+.headerportfolio{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+.header1portfolio{
+    padding: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.containerportfolio{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+
+/* ---------------------------------- */
+/* portfolio * webudvikling */
+
+.header1portfoliowebudvikling{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+
+.undertextportfolio{
+    text-align: center;
+    color: #4C586F;
+}
+
+.headerportfoliowebudvikling{
+    padding-top: 10px;
+    color: #4C586F;
+}
+
+.header4portfoliowebudvikling{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerportfoliowebudvikling2{
+    color: #4C586F;
+}
+
+
+.headerportfoliowebudviklinggrå{
+    color: #3E3E3B;
+}
+
+.header3portfoliowebudvikling{
+    background-color: #EBECED;
+}
+
+
+
+.header5portfoliowebudvikling{
+    background-color: #EBECED;
+}
+
+/* ---------------------------------- */
+/* portfolio * grafisk design */
+
+.header1portfoliowebudvikling{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+.headerportfoliowebudviklinghead{
+    color: #4C586F;
+}
+.headerportfoliowebudvikling2{
+    color: #3E3E3B;
+}
+.header1portfoliografiskdesign{
+    color: #4C586F;
+    text-align: center;
+}
+
+.headerportfoliografiskdesign{
+    color: #4C586F;
+    padding-top: 10px;
+}
+
+.header3portfoliografiskdesign{
+    background-color: #EBECED;
+    padding-top: 10px;
+}
+.header4portfoliografiskdesign{
+    padding-top: 10px;
+}
+
+.header5portfoliografiskdesign{
+    background-color: #EBECED;
+}
+.header6portfoliografiskdesign
+
+
+/* ---------------------------------- */
+/* portfolio * andre projekter */
+.headerportfolio{
+    color: #4C586F;
+}
+
+.header2portfolioandreprojekter{
+    padding: 10px;
+}
+
+.headerportfoliogandreprojekter{
+    color: #4C586F;
+}
+
+
+/* ---------------------------------- */
+/* studie */
+
+.header1studie{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+
+.header2studie{
+    color: #4C586F;
+    text-align: center;
+    
+
+
+}
+.header3studie{
+    color: #3E3E3B;
+    padding: 0px 180px 10px 180px;
+    text-align: center;
+}
+
+.btnstudie{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header4studie{
+    background-color: #4C586F;
+    color: #EBECED;
+    padding-left:20px ;
+}
+
+.header5studie{
+    background-color: #EBECED;
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.header6studie{
+    color: #3E3E3B;
+}
+
+.flexstudie{
+    display: flex;
+}
+
+.header7studie{
+    color: #3E3E3B;
+    text-align: center;
+    
+}
+/* ---------------------------------- */
+/* studie * flows */
+.headerstudie{
+    color: #4C586F;
+    text-align: center;
+    padding-bottom: 10px;
+    border: none;
+}
+.header1studieflow{
+    color: #4C586F;
+    text-align: center;
+    background-color: #EBECED;
+}
+
+.center{
+    align-items: center;
+}
+.studieflowdesign{
+    color: #4C586F;
+    padding: 20px;
+}
+.header1studieflow1{
+    color: #4C586F;
+    padding-left: 10px;
+}
+
+.header2studieflow{
+    color: #4C586F;
+}
+
+.headerstudieflow12{
+    padding: 20px;
+}
+.header3studieflow{
+    color: #4C586F;
+    padding: 20px;
+}
+
+.header4studieflow{
+    background-color: #EBECED;
+    padding: 20px;
+    
+}
+
+.headerstudiesemester{
+    background-color: #4C586F;
+    color: #EBECED; 
+    padding-bottom: -10px; 
+}
+
+
+.header7studie{
+    color: #4C586F;
+}
+
+
+
+
+
+
+
+/* ---------------------------------- */
+/* om mig */
+.headerommig{
+    color: #4C586F;
+}
+
+.header1ommig{
+    color: #4C586F;
+    text-align: center;
+    padding: 30px;
+}
+
+.header2ommig{
+    color: #3E3E3B;
+    padding: 10px;
+}
+
+
+
+.header3ommig{
+    background-color: #EBECED;
+    padding: 20px;
+    color: #3E3E3B;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.header4ommig{
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.ommigcv{
+    padding: 5px;
+    text-align: center;
+    margin-left: -400px;
+    margin-top: 40px;
+}
+
+.ommigcv1{
+    padding: 20px;
+    text-align: left;
+    margin-left: -25px;
+
+}
+
+/* ---------------------------------- */
+/* kontakt */
+.kontakttext{
+    text-align: center;
+    padding: 20px;
+    color: #4C586F;
+    margin: 10px 80px 10px 80px;
+}
+
+.kontaktbox{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.kontaktboxen{
+    padding: 5px;
+}
+
+.form-control{
+    background-color:#EBECED;
+}
+
+.btn{
+    background-color: #CBC5C1;
+    color: #3E3E3B;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;  
+    text-align: center;
+}
+
+
+
+.socialemedier{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+
+
+.ommigfærdighed{
+text-align: center;
+}
+  
